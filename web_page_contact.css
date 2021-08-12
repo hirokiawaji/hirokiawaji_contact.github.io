@@ -58,6 +58,10 @@
   text-decoration: none;
   font-weight:bold;
 }
+.tools{
+  text-decoration: none;
+  color:black;
+}
 .home:hover{
   color:gray;
 }
