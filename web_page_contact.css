@@ -86,11 +86,13 @@ h1{
 h2{
   margin-left: 30px;
   font-family:serif;
+  font-weight:lighter;
   font-size:14px;
 }
 .main a{
   margin-left: 30px;
   font-family:serif;
+  font-weight:bold;
   font-size:14px;
 }
 @media(max-width:1000px){
