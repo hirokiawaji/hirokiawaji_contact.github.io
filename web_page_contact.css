@@ -7,7 +7,9 @@
 .header-list li{
   display:inline-block;
   margin:10px;
-  font-family:courier
+  font-family:serif;
+  font-weight:lighter;
+  font-size:24px;
 }
 .header-list {
   display:inline-block;
@@ -17,11 +19,18 @@
   display:inline-block;
   font-family:serif;
   font-weight:bold;
+  font-size:48px;
   margin-left:30px;
 }
 .header{
   height:50px;
   border-bottom:solid 1px;
+}
+.footer{
+  margin-bottom:100px;
+}
+.main{
+  margin-top:50px;
 }
 .works li{
   display:inline-block;
@@ -77,11 +86,14 @@
 .notes:hover{
   color:gray;
 }
+.tools:hover{
+  color:gray;
+}
 h1{
   margin-left: 30px;
   font-family:serif;
   font-weight:bold;
-  font-size:20px;
+  font-size:42px;
 }
 h2{
   margin-left: 30px;
@@ -103,5 +115,11 @@ h2{
   }
   .header{
     height:90px;
+  }
+  .main{
+    margin-top:200px;
+  }
+  .header-list li{
+    font-size:36px;
   }
 }
